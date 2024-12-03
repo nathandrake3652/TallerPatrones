@@ -25,6 +25,19 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.14.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20090211</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.ipojo.annotations</artifactId>
             <version>1.12.1</version>
@@ -71,6 +84,7 @@
                             cl.ucn.biblioteca.servicios.activador.Activator
                         </Bundle-Activator>
                     </instructions>
+
                     <remoteOBR>repo-rel</remoteOBR>
                     <prefixUrl>
                         file:///home/dsanmartins/releases
