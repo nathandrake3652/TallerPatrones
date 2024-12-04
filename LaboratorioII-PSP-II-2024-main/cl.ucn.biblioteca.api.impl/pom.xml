@@ -52,7 +52,7 @@
                     </instructions>
                     <remoteOBR>repo-rel</remoteOBR>
                     <prefixUrl>
-                        file:///C:/Users/cienc/OneDrive/Escritorio/MUD/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.api.impl
+                        file:///C:/Users/nnath/Documents/repos/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.api.impl
                     </prefixUrl>
                     <supportIncrementalBuild>true</supportIncrementalBuild>
                 </configuration>
@@ -106,7 +106,7 @@
         <!-- releases repo -->
         <repository>
             <id>repo-rel</id>
-            <url>file:///C:/Users/cienc/OneDrive/Escritorio/MUD/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.api.impl</url>
+            <url>file:///C:/Users/nnath/Documents/repos/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.api.impl</url>
         </repository>
     </distributionManagement>
 </project>

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1733278872761
-Build-Jdk-Spec: 17
+Bnd-LastModified: 1733348992148
+Build-Jdk-Spec: 20
 Bundle-Activator: cl.ucn.biblioteca.inventario.InventarioActivador
 Bundle-ManifestVersion: 2
 Bundle-Name: cl.ucn.biblioteca.api.impl OSGi Bundle

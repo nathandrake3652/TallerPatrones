@@ -1,5 +1,6 @@
 package cl.ucn.biblioteca.servicios.tui;
 
+import cl.ucn.biblioteca.api.ExcepcionLibroNoEncontrado;
 import cl.ucn.biblioteca.servicio.api.ServicioInventarioLibro;
 
 import org.apache.felix.service.command.Descriptor;
@@ -13,7 +14,7 @@ import cl.ucn.biblioteca.api.ExcepcionLibroInvalido;
 public class ServicioInventarioProxy {
 
 	public static final String AMBITO = "libro";
-	public static final String[] FUNCIONES = new String[] {"buscar", "ingresar"};
+	public static final String[] FUNCIONES = new String[] {"obtener", "ingresar","remover","modificarCategoria"};
 	private BundleContext contexto;
 	public ServicioInventarioProxy(BundleContext contexto)
 	{
@@ -48,11 +49,10 @@ public class ServicioInventarioProxy {
 	}
 
 	@Descriptor("Obtener libro")
-	public String obtener(@Descriptor("ISBN") String isbn)
-	{
+	public String obtener(@Descriptor("ISBN") String isbn) throws ExcepcionLibroNoEncontrado {
 		ServicioInventarioLibro servicio = obtenerServicio();
-		//return servicio.obtener(isbn).toString();
-		return "sos";
+		return servicio.obtener(isbn).toString();
+
 	}
 
 	protected ServicioInventarioLibro obtenerServicio() {
