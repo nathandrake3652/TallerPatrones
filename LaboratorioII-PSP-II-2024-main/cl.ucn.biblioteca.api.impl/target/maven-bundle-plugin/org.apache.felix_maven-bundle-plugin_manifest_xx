@@ -1,0 +1,7 @@
+Bundle-Activator=cl.ucn.biblioteca.inventario.InventarioActivador
+Bundle-SymbolicName=cl.ucn.biblioteca.api.impl
+Export-Package=cl.ucn.biblioteca.api.impl
+Import-Package=cl.ucn.biblioteca.api, org.osgi.framework
+Private-Package=cl.ucn.biblioteca.inventario
+_noee=true
+_removeheaders=Import-Service,Export-Service

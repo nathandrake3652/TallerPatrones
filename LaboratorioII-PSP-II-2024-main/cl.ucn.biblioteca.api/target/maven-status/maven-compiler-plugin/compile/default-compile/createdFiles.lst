@@ -1,0 +1,7 @@
+cl\ucn\biblioteca\api\ExcepcionLibroNoEncontrado.class
+cl\ucn\biblioteca\api\Inventario$CriterioBusqueda.class
+cl\ucn\biblioteca\api\ExcepcionLibroExistente.class
+cl\ucn\biblioteca\api\Inventario.class
+cl\ucn\biblioteca\api\LibroMutable.class
+cl\ucn\biblioteca\api\ExcepcionLibroInvalido.class
+cl\ucn\biblioteca\api\Libro.class

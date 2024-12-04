@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository>
+    <resource>
+        <symbolicname>cl.ucn.biblioteca.api</symbolicname>
+        <version>1.0.0</version>
+        <uri>file:/C:\Users\cienc\OneDrive\Escritorio\MUD\TallerPatrones\LaboratorioII-PSP-II-2024-main\cl.ucn.biblioteca.api\target\cl.ucn.biblioteca.api-1.0.0.jar</uri>
+    </resource>
+    <resource>
+        <symbolicname>cl.ucn.biblioteca.api.impl</symbolicname>
+        <version>1.0.0</version>
+        <uri>file:/C:\Users\cienc\OneDrive\Escritorio\MUD\TallerPatrones\LaboratorioII-PSP-II-2024-main\cl.ucn.biblioteca.api.impl\target\cl.ucn.biblioteca.api.impl-1.0.0.jar</uri>
+    </resource>
+    <resource>
+        <symbolicname>cl.ucn.biblioteca.servicio</symbolicname>
+        <version>1.0.0</version>
+        <uri>file:/C:\Users\cienc\OneDrive\Escritorio\MUD\TallerPatrones\LaboratorioII-PSP-II-2024-main\cl.ucn.biblioteca.servicio\target\cl.ucn.biblioteca.servicio-1.0.0.jar</uri>
+    </resource>
+    <resource>
+        <symbolicname>cl.ucn.biblioteca.tui</symbolicname>
+        <version>1.0.0</version>
+        <uri>file:/C:\Users\cienc\OneDrive\Escritorio\MUD\TallerPatrones\LaboratorioII-PSP-II-2024-main\cl.ucn.biblioteca.tui\target\cl.ucn.biblioteca.tui-1.0.0.jar</uri>
+    </resource>
+</repository>

@@ -1,0 +1,4 @@
+cl\ucn\biblioteca\api\impl\InventarioImpl.class
+cl\ucn\biblioteca\api\impl\LibroMutableImpl.class
+cl\ucn\biblioteca\api\impl\InventarioImpl$1.class
+cl\ucn\biblioteca\inventario\InventarioActivador.class

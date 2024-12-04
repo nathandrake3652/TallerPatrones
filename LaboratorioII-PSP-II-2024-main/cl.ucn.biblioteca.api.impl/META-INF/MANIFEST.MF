@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1731897352237
+Bnd-LastModified: 1733275696417
 Build-Jdk-Spec: 17
 Bundle-Activator: cl.ucn.biblioteca.inventario.InventarioActivador
 Bundle-ManifestVersion: 2

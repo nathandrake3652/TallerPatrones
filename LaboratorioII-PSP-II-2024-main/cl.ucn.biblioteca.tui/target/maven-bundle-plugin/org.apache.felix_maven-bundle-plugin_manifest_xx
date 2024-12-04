@@ -1,0 +1,7 @@
+Bundle-Activator=cl.ucn.biblioteca.servicios.activador.Activator
+Bundle-SymbolicName=cl.ucn.biblioteca.tui
+Export-Package=cl.ucn.biblioteca.servicios.tui
+Import-Package=cl.ucn.biblioteca.api, cl.ucn.biblioteca.servicio.api, org.osgi.framework
+Private-Package=cl.ucn.biblioteca.servicios.activador
+_noee=true
+_removeheaders=Import-Service,Export-Service

@@ -1,0 +1,19 @@
+<repository lastmodified='20241203102817.352'>
+  <resource id='cl.ucn.biblioteca.servicio/1.0.0' symbolicname='cl.ucn.biblioteca.servicio' presentationname='cl.ucn.biblioteca.servicio OSGi Bundle' uri='file:/C:/Users/cienc/OneDrive/Escritorio/MUD/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.servicio/cl/ucn/cl.ucn.biblioteca.servicio/1.0.0/cl.ucn.biblioteca.servicio-1.0.0.jar' version='1.0.0'>
+    <size>5963</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='cl.ucn.biblioteca.servicio'/>
+      <p n='presentationname' v='cl.ucn.biblioteca.servicio OSGi Bundle'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='cl.ucn.biblioteca.servicio.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='cl.ucn.biblioteca.api,org.osgi.framework'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=cl.ucn.biblioteca.api)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package cl.ucn.biblioteca.api;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=cl.ucn.biblioteca.api.impl))' extend='false' multiple='false' optional='false'>Import package cl.ucn.biblioteca.api.impl</require>
+  </resource>
+</repository>
