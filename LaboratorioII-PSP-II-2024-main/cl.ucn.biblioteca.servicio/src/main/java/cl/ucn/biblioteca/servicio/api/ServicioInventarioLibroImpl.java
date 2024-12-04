@@ -20,14 +20,15 @@ public class ServicioInventarioLibroImpl implements ServicioInventarioLibro{
 	}
 
 	@Override
-	public void ingresar(String isbn, String titulo, String autor, String categoria) {
-		// TODO Auto-generated method stub
-		
+	public String ingresar(String isbn, String titulo, String autor, String categoria) {
+		String nombre = Inventario.class.getName();
+		System.out.println("Ingresando libro");
+		return nombre;
 	}
 
 	@Override
 	public void remover(String isbn) {
-		// TODO Auto-generated method stub
+
 
 	}
 

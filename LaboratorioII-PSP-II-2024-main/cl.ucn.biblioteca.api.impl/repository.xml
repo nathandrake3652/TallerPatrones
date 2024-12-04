@@ -1,6 +1,6 @@
-<repository lastmodified='20241203102816.666'>
+<repository lastmodified='20241203112113.025'>
   <resource id='cl.ucn.biblioteca.api.impl/1.0.0' symbolicname='cl.ucn.biblioteca.api.impl' presentationname='cl.ucn.biblioteca.api.impl OSGi Bundle' uri='file:/C:/Users/cienc/OneDrive/Escritorio/MUD/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.api.impl/cl/ucn/cl.ucn.biblioteca.api.impl/1.0.0/cl.ucn.biblioteca.api.impl-1.0.0.jar' version='1.0.0'>
-    <size>8959</size>
+    <size>8958</size>
     <capability name='bundle'>
       <p n='symbolicname' v='cl.ucn.biblioteca.api.impl'/>
       <p n='presentationname' v='cl.ucn.biblioteca.api.impl OSGi Bundle'/>

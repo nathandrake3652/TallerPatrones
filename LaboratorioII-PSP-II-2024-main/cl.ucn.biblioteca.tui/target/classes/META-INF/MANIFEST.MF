@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1733275697911
+Bnd-LastModified: 1733278874296
 Build-Jdk-Spec: 17
 Bundle-Activator: cl.ucn.biblioteca.servicios.activador.Activator
 Bundle-ManifestVersion: 2

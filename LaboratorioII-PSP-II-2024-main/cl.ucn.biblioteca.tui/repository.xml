@@ -1,6 +1,6 @@
-<repository lastmodified='20241203102818.014'>
+<repository lastmodified='20241203112114.406'>
   <resource id='cl.ucn.biblioteca.tui/1.0.0' symbolicname='cl.ucn.biblioteca.tui' presentationname='cl.ucn.biblioteca.tui OSGi Bundle' uri='file:/C:/Users/cienc/OneDrive/Escritorio/MUD/TallerPatrones/LaboratorioII-PSP-II-2024-main/cl.ucn.biblioteca.tui/cl/ucn/cl.ucn.biblioteca.tui/1.0.0/cl.ucn.biblioteca.tui-1.0.0.jar' version='1.0.0'>
-    <size>5864</size>
+    <size>6085</size>
     <capability name='bundle'>
       <p n='symbolicname' v='cl.ucn.biblioteca.tui'/>
       <p n='presentationname' v='cl.ucn.biblioteca.tui OSGi Bundle'/>

@@ -29,7 +29,30 @@ public class ServicioInventarioProxy {
 	{
 		ServicioInventarioLibro servicio = obtenerServicio();
 		servicio.ingresar(isbn, titulo, autor, categoria);
-		return isbn;
+		return servicio.ingresar(isbn, titulo, autor, categoria);
+	}
+
+	@Descriptor("Remover libro")
+	public void remover(@Descriptor("ISBN") String isbn)
+	{
+		ServicioInventarioLibro servicio = obtenerServicio();
+		servicio.remover(isbn);
+	}
+
+	@Descriptor("Modificar categoria")
+	public void modificarCategoria(@Descriptor("ISBN") String isbn,
+								   @Descriptor("Categoria") String categoria)
+	{
+		ServicioInventarioLibro servicio = obtenerServicio();
+		servicio.modificarCategoria(isbn, categoria);
+	}
+
+	@Descriptor("Obtener libro")
+	public String obtener(@Descriptor("ISBN") String isbn)
+	{
+		ServicioInventarioLibro servicio = obtenerServicio();
+		//return servicio.obtener(isbn).toString();
+		return "sos";
 	}
 
 	protected ServicioInventarioLibro obtenerServicio() {
